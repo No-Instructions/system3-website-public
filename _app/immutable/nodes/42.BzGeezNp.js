@@ -1,0 +1,1 @@
+import{r as t}from"../chunks/index.DYMvb8Iz.js";const e=async()=>{t(302,"https://stackblitz.com/github/huntabyte/shadcn-repro-template")},r=Object.freeze(Object.defineProperty({__proto__:null,load:e},Symbol.toStringTag,{value:"Module"}));export{r as universal};

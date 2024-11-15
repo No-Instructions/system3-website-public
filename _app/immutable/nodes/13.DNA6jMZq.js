@@ -1,0 +1,16 @@
+import{s as a,d as n,n as s,i as l,p as h,c as d,q as u,h as c}from"../chunks/scheduler.D_DiFEDa.js";import{S as m,i as p}from"../chunks/index.uqldPLAT.js";function f(i){let t,o=`<div class="mx-auto max-w-[780px]"><div class="text-center"><h1 class="text-4xl font-bold tracking-tighter">Company ideals</h1> <p class="mt-4 text-lg text-muted-foreground">These are the orienting principles on which our company is premised.</p></div> <div class="mt-16 space-y-24"><div><h3 class="text-2xl font-semibold">Care for the soul</h3> <p class="mt-4 text-lg">We aspire to live in a way that nourishes rather than drains the spirit. This
+					company is meant to be a structure that supports life.</p> <p class="mt-4 text-muted-foreground">This means listening with care, moving at the right pace, and checking that our
+					work energizes rather than depletes. For ourselves and our users: our role is to
+					serve rather than control.</p></div> <div><h3 class="text-2xl font-semibold">Freedom from capture</h3> <p class="mt-4 text-lg">Many of us have experienced the soul-crushing weight of golden handcuffs — in
+					jobs, in tools, in platforms. We founded this company to support freedom — ours
+					and yours.</p> <p class="mt-4 text-muted-foreground">This means avoiding venture funding that would force us to exploit users,
+					avoiding product decisions that create lock-in, and maintaining our own freedom
+					to build what&#39;s right.</p></div> <div><h3 class="text-2xl font-semibold">Your interest in beauty is not trivial</h3> <p class="mt-4 text-lg">The experience of beauty is how humans make contact with something more
+					important. It&#39;s not just decoration on top of substance; beauty is the sign of
+					truth.</p> <p class="mt-4 text-muted-foreground">In our work we take our own taste seriously. In our products, we want to honor
+					yours.</p></div> <div><h3 class="text-2xl font-semibold">Doesn&#39;t extrapolate to dystopia</h3> <p class="mt-4 text-lg">We hope to nudge the universe in more positive directions. We at least don&#39;t
+					want to make it worse. When extended to their imaginal conclusions, our choices
+					should enhance rather than diminish human flourishing.</p> <p class="mt-4 text-muted-foreground">This guides our decisions about funding, features, and growth — we&#39;re
+					uncomfortable if it looks like our success makes the world worse.</p></div> <div><h3 class="text-2xl font-semibold">Philo sophia</h3> <p class="mt-4 text-lg">We are lovers of truth and builders of coherent models. We like to start from
+					first principles rather than convention. Curiosity is central to our nature.</p> <p class="mt-4 text-muted-foreground">It&#39;s why we like Obsidian, and it informs our aspirations for the future of
+					technology. Threaded, not fragmented.</p></div></div> <div class="mt-32 text-center"><a href="/company#product-theses" class="text-primary hover:underline">See how these ideals shape our product theses →</a></div></div>`;return{c(){t=c("div"),t.innerHTML=o,this.h()},l(e){t=d(e,"DIV",{class:!0,"data-svelte-h":!0}),u(t)!=="svelte-19km7m"&&(t.innerHTML=o),this.h()},h(){h(t,"class","container py-10")},m(e,r){l(e,t,r)},p:s,i:s,o:s,d(e){e&&n(t)}}}class v extends m{constructor(t){super(),p(this,t,null,f,a,{})}}export{v as component};

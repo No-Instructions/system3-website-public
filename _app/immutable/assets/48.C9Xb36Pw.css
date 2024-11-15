@@ -1,0 +1,1 @@
+.crystal-gold{transform-origin:center center;transition:all .3s ease-out}svg:hover .crystal-gold{filter:drop-shadow(0 0 8px #ffa558);opacity:1.2;transform:scale(1)}svg:hover #connection{filter:drop-shadow(0 0 2px #ffa558);stroke-opacity:1.2}svg:hover #relay-path{filter:drop-shadow(0 0 0px #ffa558);opacity:1.2}#connection,#relay-path{transition:all .3s ease-out}
