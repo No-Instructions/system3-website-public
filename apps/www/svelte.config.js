@@ -20,7 +20,6 @@ const config = {
 		}),
 	],
 	extensions: [".svelte", ".md"],
-
 	kit: {
 		adapter: adapter({
 			pages: "build",
@@ -29,6 +28,9 @@ const config = {
 			precompress: false,
 			strict: true,
 		}),
+		paths: {
+			base: '/system3-website-public'
+		},
 		prerender: {
 			handleMissingId: (details) => {
 				if (details.id === "#") return;
