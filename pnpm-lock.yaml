@@ -75,6 +75,9 @@ importers:
       paneforge:
         specifier: ^0.0.2
         version: 0.0.2(svelte@4.2.12)
+      svelte-headless-table:
+        specifier: ^0.18.3
+        version: 0.18.3(svelte@4.2.12)
       svelte-legos:
         specifier: ^0.2.2
         version: 0.2.2(svelte@4.2.12)
@@ -3309,11 +3312,21 @@ packages:
       svelte:
         optional: true
 
+  svelte-headless-table@0.18.3:
+    resolution: {integrity: sha512-1zVnqXW0dvn6ZceYa94k+ziK+w5Dj9nlWYTQGXBv2JhM0resj9w7CWpclZK1TJwAALfEeH4InPBPO87L5fr+nQ==}
+    peerDependencies:
+      svelte: ^4.0.0
+
   svelte-hmr@0.15.3:
     resolution: {integrity: sha512-41snaPswvSf8TJUhlkoJBekRrABDXDMdpNpT2tfHIv4JuhgvHqLMhEPGtaQn0BmbNSTkuz2Ed20DF2eHw0SmBQ==}
     engines: {node: ^12.20 || ^14.13.1 || >= 16}
     peerDependencies:
       svelte: ^3.19.0 || ^4.0.0
+
+  svelte-keyed@2.0.0:
+    resolution: {integrity: sha512-7TeEn+QbJC2OJrHiuM0T8vMBkms3DNpTE+Ir+NtnVBnBMA78aL4f1ft9t0Hn/pBbD/TnIXi4YfjFRAgtN+DZ5g==}
+    peerDependencies:
+      svelte: ^4.0.0
 
   svelte-legos@0.2.2:
     resolution: {integrity: sha512-HTVkCIqhrxdy+OpXjxGr/4xIJEGv4d2cRQwTjm0SYfLw/YF1I1l/TQR59nb2WvjccnO8TNFNTvAWP5pgXQnU+w==}
@@ -3373,10 +3386,20 @@ packages:
     peerDependencies:
       svelte: ^3.54.0 || ^4.0.0 || ^5.0.0
 
+  svelte-render@2.0.1:
+    resolution: {integrity: sha512-RpB0SurwXm4xhjvHHtjeqMmvd645FURb79GFOotScOSqnKK5vpqBgoBPGC0pp+E/eZgDSQ9rRAdn/+N4ys1mXQ==}
+    peerDependencies:
+      svelte: ^4.0.0
+
   svelte-sonner@0.3.19:
     resolution: {integrity: sha512-jpPOgLtHwRaB6Vqo2dUQMv15/yUV/BQWTjKpEqQ11uqRSHKjAYUKZyGrHB2cQsGmyjR0JUzBD58btpgNqINQ/Q==}
     peerDependencies:
       svelte: '>=3 <5'
+
+  svelte-subscribe@2.0.1:
+    resolution: {integrity: sha512-eKXIjLxB4C7eQWPqKEdxcGfNXm2g/qJ67zmEZK/GigCZMfrTR3m7DPY93R6MX+5uoqM1FRYxl8LZ1oy4URWi2A==}
+    peerDependencies:
+      svelte: ^4.0.0
 
   svelte@4.2.12:
     resolution: {integrity: sha512-d8+wsh5TfPwqVzbm4/HCXC783/KPHV60NvwitJnyTA5lWn1elhXMNWhXGCJ7PwPa8qFUnyJNIyuIRt2mT0WMug==}
@@ -7203,7 +7226,18 @@ snapshots:
     optionalDependencies:
       svelte: 4.2.12
 
+  svelte-headless-table@0.18.3(svelte@4.2.12):
+    dependencies:
+      svelte: 4.2.12
+      svelte-keyed: 2.0.0(svelte@4.2.12)
+      svelte-render: 2.0.1(svelte@4.2.12)
+      svelte-subscribe: 2.0.1(svelte@4.2.12)
+
   svelte-hmr@0.15.3(svelte@4.2.12):
+    dependencies:
+      svelte: 4.2.12
+
+  svelte-keyed@2.0.0(svelte@4.2.12):
     dependencies:
       svelte: 4.2.12
 
@@ -7239,7 +7273,16 @@ snapshots:
     dependencies:
       svelte: 4.2.12
 
+  svelte-render@2.0.1(svelte@4.2.12):
+    dependencies:
+      svelte: 4.2.12
+      svelte-subscribe: 2.0.1(svelte@4.2.12)
+
   svelte-sonner@0.3.19(svelte@4.2.12):
+    dependencies:
+      svelte: 4.2.12
+
+  svelte-subscribe@2.0.1(svelte@4.2.12):
     dependencies:
       svelte: 4.2.12
 
