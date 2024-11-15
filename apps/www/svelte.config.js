@@ -36,6 +36,13 @@ const config = {
 				if (details.id === "#") return;
 				console.warn(details.message);
 			},
+			handleHttpError: ({ path, referrer, message }) => {
+				// Ignore missing favicons
+				if (path.includes('favicon')) return;
+				
+				// otherwise warn
+				console.warn(`${path} (referred to by ${referrer}) failed to prerender: ${message}`);
+			}
 		},
 	},
 };
