@@ -18,7 +18,7 @@ jobs:
               run: pnpm install
             - name: Build website
               working-directory: apps/www
-              run: pnpm build
+              run: NODE_OPTIONS="--max-old-space-size=8192" pnpm build
             - name: Deploy to GitHub Pages
               uses: JamesIves/github-pages-deploy-action@v4
               with:
