@@ -1,1 +1,0 @@
-import{m as o,c as n}from"./index.B0FfbRil.js";function l(){return{elements:{root:o("label",{action:t=>({destroy:n(t,"mousedown",e=>{!e.defaultPrevented&&e.detail>1&&e.preventDefault()})})})}}}export{l as c};
