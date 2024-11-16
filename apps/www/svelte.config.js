@@ -26,25 +26,25 @@ const config = {
 			assets: "build",
 			fallback: "404.html",
 			precompress: false,
-			strict: true,
+			strict: true
 		}),
 		paths: {
-			base: '/system3-website-public'
+			base: '/system3-website-public',
+			relative: false
 		},
+		appDir: '_app',
+		trailingSlash: 'always',
 		prerender: {
 			handleMissingId: (details) => {
 				if (details.id === "#") return;
 				console.warn(details.message);
 			},
 			handleHttpError: ({ path, referrer, message }) => {
-				// Ignore missing favicons
 				if (path.includes('favicon')) return;
-				
-				// otherwise warn
 				console.warn(`${path} (referred to by ${referrer}) failed to prerender: ${message}`);
 			}
-		},
-	},
+		}
+	}
 };
 
 export default config;
