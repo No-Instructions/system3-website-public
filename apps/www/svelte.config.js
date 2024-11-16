@@ -30,9 +30,9 @@ const config = {
 		}),
 		paths: {
 			base: '/system3-website-public',
-			relative: false
+			assets: 'https://no-instructions.github.io/system3-website-public'
 		},
-		appDir: '_app',
+		appDir: 'app',
 		prerender: {
 			handleMissingId: (details) => {
 				if (details.id === "#") return;
