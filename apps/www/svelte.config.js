@@ -29,10 +29,8 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: '/system3-website-public',
-			assets: 'https://no-instructions.github.io/system3-website-public'
+			base: '/system3-website-public'
 		},
-		appDir: 'app',
 		prerender: {
 			handleMissingId: (details) => {
 				if (details.id === "#") return;
