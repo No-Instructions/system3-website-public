@@ -33,7 +33,6 @@ const config = {
 			relative: false
 		},
 		appDir: '_app',
-		trailingSlash: 'always',
 		prerender: {
 			handleMissingId: (details) => {
 				if (details.id === "#") return;
